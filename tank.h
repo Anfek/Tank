@@ -19,4 +19,4 @@ typedef struct
     Orientation orient; //ориентация танка
 }Tank;
 
-pthread_mutex_t mutex;
+static pthread_mutex_t mutex;
